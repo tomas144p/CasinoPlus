@@ -1,4 +1,3 @@
-
 # TOMA DE REQUERIMIENTOS
 
 ## 1. Contexto.
