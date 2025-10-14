@@ -145,7 +145,7 @@ Pago inicial.
 | Item | Valor | Descripción |
 |------|-------|-------------|
 | **RECURSOS HUMANOS** | | |
-| Desarrolladores | $1.920.000 | 2 semanas (C/U (4)) $480.000/semana |
+| Desarrolladores | $3.840.000 | 2 semanas (C/U (4)) $480.000/semana |
 | Arquitecto DB | $300.000 | 1 semana de trabajo |
 | **LICENCIAS Y HERRAMIENTAS** | | |
 | Licencias Software | $80.000 | -- |
@@ -159,8 +159,9 @@ Pago inicial.
 | **GASTOS OPERACIONALES** | | |
 | Gestión de Proyecto | $300.000 | 15% del desarrollo |
 | Fondo Contingencia | $250.000 | 10% del total |
-| **SUBTOTAL** | **$3.855.000** | |
-| **IVA (19%)** | **$732.450** | |
+| **SUBTOTAL** | **$5.775.000** | |
+| **IVA (19%)** | **$1.097.250** | |
+| **TOTAL FINAL** | **$6.872.250** | |
 
 
 ## 16. Criterios de aceptación.
