@@ -44,6 +44,19 @@ Se espera que el software asista al personal y a los clientes a tener una experi
 
 ## 7. Permisos.
 
+//Este apartado describe los permisos por perfil del software, los cuales son **"Usuarios", "Personal" y
+//"Administradores".**.
+-------------------------------------------------------
+Contexto:
+La gerarquia de las asignaciones del software cabe en 3 perfiles que son los usuarios, el personal y los administradores, en el mismo software los administradores asignan al personal y asi mismo el personal puede crear perfiles de los clientes nuevos que ingresen al club.
+
+Usuarios/Clientes:
+-Interacciones de los usuarios con el software:
+Se entiende que el software generado tendra una interfaz para el usuario/cliente, donde en él se asigna una id al crear su tarjeta virtual (Datos basicos para crear la tarjeta virtual "Nombre, Apellido, Rut, Telefono), tendra acceso a un perfil donde el mismo puede subir su informacion personal (no como un blog sino mas como un cuestionario de datos no escenciales al crear la tarjeta).
+-Seguridad:
+Los usuarios no pueden ver la informacion personal de otros usuarios.
+Los usuarios no pueden modificar datos bancarios o del casino desde la aplicacion.
+
 Este apartado describe los permisos por perfil del software, los cuales son **"Usuarios", "Personal" y "Administradores".**.
 
 ### 7.1 Usuarios.
