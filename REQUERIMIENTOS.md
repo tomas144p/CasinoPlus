@@ -57,13 +57,17 @@ Se entiende que el software generado tendra una interfaz para el usuario/cliente
 Los usuarios no pueden ver la informacion personal de otros usuarios.
 Los usuarios no pueden modificar datos bancarios o del casino desde la aplicacion.
 
+
 Este apartado describe los permisos por perfil del software, los cuales son **"Usuarios", "Personal" y "Administradores".**.
 
-### 7.1 Usuarios.
-
-Los usuarios podran ver su propia informacion personal, como puntos, sorteos inscritos, informacion de sorteos futuros, entre otros previamente mencionados.
-
-Esto incluye comunmente, clientes del casino inscritos en el club (Previamente y futuramente).
+### 7.1 Usuarios/Cliente.
+Se definen como Usuario/Cliente:
+Cualquier Individuo que obtenga una tarjeta del club y sus ventajas son que
+podran ver su propia informacion personal, como puntos, sorteos inscritos, informacion de sorteos futuros, entre otros previamente mencionados.
+Cada tarjeta virtual contiene un id unico asignado al usuario.
+Restricciones como Usuario/Cliente:
+La tarjeta del club solo es una manera de gestion de puntos y por ende no tendra
+espacio para transacciones o funciones comunes de las tarjetas de credito.
 
 ### 7.2 Personal.
 
