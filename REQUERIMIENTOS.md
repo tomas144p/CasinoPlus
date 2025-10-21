@@ -52,7 +52,7 @@ La gerarquia de las asignaciones del software cabe en 3 perfiles que son los usu
 
 Usuarios/Clientes:
 -Interacciones de los usuarios con el software:
-Se entiende que el software generado tendra una interfaz para el usuario/cliente, donde en él se asigna una id al crear su tarjeta virtual (Datos basicos para crear la tarjeta virtual "Nombre, Apellido, Rut, Telefono), tendra acceso a un perfil donde el mismo puede subir su informacion personal (no como un blog sino mas como un cuestionario de datos no escenciales al crear la tarjeta).
+Se entiende que el software generado tendra una interfaz para el usuario/cliente, donde en él se asigna una id al crear su tarjeta virtual (Datos basicos para crear la tarjeta virtual "Nombre, Apellido, Rut, Telefono, Correo Electrónico"), tendra acceso a un perfil donde el mismo puede subir su informacion personal (no como un blog sino mas como un cuestionario de datos no escenciales al crear la tarjeta).
 -Seguridad:
 Los usuarios no pueden ver la informacion personal de otros usuarios.
 Los usuarios no pueden modificar datos bancarios o del casino desde la aplicacion.
@@ -123,11 +123,11 @@ El cliente se acerca al mostrador del casino o accede al sistema desde un punto 
 
 El personal o el propio usuario ingresa los datos básicos requeridos para crear la tarjeta virtual del club, incluyendo:
 
-- Nombre completo
+- Nombre completo.
 
-- RUT
+- RUT.
 
-- Teléfono
+- Teléfono.
 
 El sistema valida que el usuario:
 
@@ -143,13 +143,13 @@ El usuario puede acceder a su perfil en la aplicación para consultar sus puntos
 
 El sistema muestra al usuario los sorteos o torneos disponibles, con detalles como:
 
-- Nombre del evento
+- Nombre del evento.
 
-- Fecha y hora del sorteo
+- Fecha y hora del sorteo.
 
-- Requisitos de participación
+- Requisitos de participación.
 
--Premios disponibles
+- Premios disponibles.
 
 El cliente puede inscribirse con un solo clic o escaneo de código QR desde su tarjeta virtual.
 
