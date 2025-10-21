@@ -52,7 +52,7 @@ La gerarquia de las asignaciones del software cabe en 3 perfiles que son los usu
 
 Usuarios/Clientes:
 -Interacciones de los usuarios con el software:
-Se entiende que el software generado tendra una interfaz para el usuario/cliente, donde en él se asigna una id al crear su tarjeta virtual (Datos basicos para crear la tarjeta virtual "Nombre, Apellido, Rut, Telefono), tendra acceso a un perfil donde el mismo puede subir su informacion personal (no como un blog sino mas como un cuestionario de datos no escenciales al crear la tarjeta).
+Se entiende que el software generado tendra una interfaz para el usuario/cliente, donde en él se asigna una id al crear su tarjeta virtual (Datos basicos para crear la tarjeta virtual "Nombre, Apellido, Rut, Telefono, Correo Electrónico"), tendra acceso a un perfil donde el mismo puede subir su informacion personal (no como un blog sino mas como un cuestionario de datos no escenciales al crear la tarjeta).
 -Seguridad:
 Los usuarios no pueden ver la informacion personal de otros usuarios.
 Los usuarios no pueden modificar datos bancarios o del casino desde la aplicacion.
@@ -115,7 +115,85 @@ Notificar ganador de sorteo por ID Cliente.
 
 ## 11. Flujo principal.
 
-El cliente se incribe -> Datos iniciales (Nombre, rut, bono de bienvendia) -> Participacion en sorteos.
+El flujo principal describe el recorrido típico del usuario, desde su inscripción en el sistema hasta su participación y eventual notificación en sorteos, incluyendo las interacciones del personal y los administradores.
+
+### 11.1 Registro del Cliente (Usuario)
+
+El cliente se acerca al mostrador del casino o accede al sistema desde un punto autorizado (como una tablet o stand digital).
+
+El personal o el propio usuario ingresa los datos básicos requeridos para crear la tarjeta virtual del club, incluyendo:
+
+- Nombre completo.
+
+- RUT.
+
+- Teléfono.
+
+El sistema valida que el usuario:
+
+- Sea mayor de edad (≥18 años).
+
+- No posea una cuenta duplicada.
+
+Una vez validado, se genera una ID única para el cliente y se le asigna un bono de bienvenida inicial (por ejemplo, puntos o una participación gratuita en un sorteo).
+
+El usuario puede acceder a su perfil en la aplicación para consultar sus puntos, sorteos activos, beneficios y notificaciones.
+
+### 11.2 Participación en Sorteos y Torneos
+
+El sistema muestra al usuario los sorteos o torneos disponibles, con detalles como:
+
+- Nombre del evento.
+
+- Fecha y hora del sorteo.
+
+- Requisitos de participación.
+
+- Premios disponibles.
+
+El cliente puede inscribirse con un solo clic o escaneo de código QR desde su tarjeta virtual.
+
+Una vez inscrito, el sistema registra su participación en la base de datos y actualiza su perfil con el evento correspondiente.
+
+Los administradores pueden enviar recordatorios automáticos o manuales sobre los sorteos próximos.
+
+### 11.3 Realización del Sorteo
+
+En el momento del sorteo, el sistema selecciona al ganador de forma aleatoria entre los inscritos.
+
+El administrador o personal designado recibe una notificación interna con el ID del cliente ganador.
+
+El administrador verifica la identidad del ganador a través de la aplicación (revisando la información en su teléfono o dispositivo móvil del casino).
+
+En caso de validación exitosa, el sistema envía una notificación inmediata al usuario ganador indicando que ha resultado seleccionado.
+
+Si el usuario se encuentra dentro del establecimiento, el personal puede confirmar en vivo su identidad mediante el ID de cliente y otorgar el premio.
+
+### 11.4 Notificación y Registro del Ganador
+
+El sistema registra automáticamente el resultado del sorteo (ganador, hora, tipo de premio, validación).
+
+El administrador puede publicar la información del ganador en una sección de resultados dentro del sistema o en pantallas del casino, respetando la confidencialidad de los datos personales (solo se muestra nombre parcial o ID).
+
+El usuario ganador recibe en su perfil una notificación permanente del premio obtenido y el estado del canje (pendiente, entregado, expirado).
+
+### 11.5 Gestión Continua del Cliente
+
+El sistema acumula puntos o beneficios a medida que el usuario participa en sorteos, torneos o realiza actividades dentro del casino.
+
+Los usuarios pueden consultar su historial de sorteos, puntos acumulados, beneficios activos y próximos eventos desde su perfil.
+
+Los administradores y personal pueden actualizar, eliminar o corregir datos en caso de inconsistencias o cambios en la cuenta del usuario.
+
+En caso de pérdida de acceso, el personal puede reemitir la tarjeta virtual o restablecer el perfil del usuario mediante validación de identidad.
+
+### 11.6 Flujo Resumido General
+
+Usuario: Se registra → obtiene ID y bono → participa en sorteos → recibe notificaciones.
+
+Personal: Asiste a usuarios en el registro → verifica ganadores → comunica resultados en vivo.
+
+Administrador: Supervisa inscripciones → gestiona sorteos → envía notificaciones → mantiene base de datos actualizada.
 
 ## 12. Datos básicos a almacenar.
 
