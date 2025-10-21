@@ -129,6 +129,8 @@ El personal o el propio usuario ingresa los datos básicos requeridos para crear
 
 - Teléfono.
 
+- Correo Electrónico.
+
 El sistema valida que el usuario:
 
 - Sea mayor de edad (≥18 años).
