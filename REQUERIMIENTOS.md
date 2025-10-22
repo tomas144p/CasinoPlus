@@ -231,10 +231,10 @@ Pago inicial.
 
 **Endpoints Principales**
 
-/users - CRUD usuarios
-/raffles - Gestión de sorteos
-/notifications - Notificaciones a usuarios
-/auth - Autenticación por perfiles
+/users - CRUD usuarios.
+/raffles - Gestión de sorteos.
+/notifications - Notificaciones a usuarios.
+/auth - Autenticación por perfiles.
 
 **PRESUPUESTO ESTIMADO:**
 
