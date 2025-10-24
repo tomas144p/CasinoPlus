@@ -208,11 +208,39 @@ Tambien debe almacenar la informacion de los sorteos que estan en proceso o que 
 
 Luego de los requerimientos minimos, se espera que los **Administradores** puedan subir informacion de sorteos / torneos futuros y tendran la posibilidad de añadir usuarios nuevos localmente, los **usuarios** podran inscribirse desde el club del casino, podran revisar su informacion y consultar por torneos y/o sorteos futuros e implementar el perfil de **Personal**, para que puedan acceder a la informacion de sorteos y torneos sin ser clientes para evitar que el personal pueda salir ganador y mantener informado a los presentadores.
 
-## 14. Plazo deseado.
+## 14. Plazo Deseado
 
+Basándonos en el alcance técnico definido y los requerimientos del MVP, se establece el siguiente cronograma:
 
+### Semana 1: Desarrollo del Core
+- Configuración de infraestructura. (Docker + MongoDB)
+- Implementación de modelos de datos básicos.
+- Desarrollo de autenticación JWT por perfiles.
+- Endpoints CRUD para usuarios. (/users)
+- Sistema básico de registro y validación de clientes.
 
-Pago inicial.
+### Semana 2: Funcionalidades Principales
+- Implementación de gestión de sorteos. (/raffles)
+- Sistema de notificaciones básico. (/notifications)
+- Endpoints de autenticación. (/auth)
+- Integración entre módulos.
+- Validaciones de negocio. (mayoría de edad, duplicados)
+
+### Semana 3: Testing y Ajustes
+- Pruebas de integración entre módulos.
+- Validación de criterios de aceptación.
+- Pruebas de carga básicas.
+- Documentación técnica y de usuario.
+- Preparación para despliegue inicial.
+
+### Condiciones para Cumplimiento del Plazo
+
+- Aprobación rápida de requerimientos por parte del cliente.
+- Disponibilidad de información de integración con sistemas existentes.
+- Acceso a especificaciones legales. (mayoría de edad, protección de datos)
+- Pago inicial realizado según lo acordado.
+
+Este plazo considera los problemas operativos del casino y garantizar la calidad en el desarrollo.
 
 ## 15. Definicion de alcance y presupuesto (alcance acordado: solo API con Mongo + Express).
 
