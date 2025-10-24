@@ -235,9 +235,9 @@ Basándonos en el alcance técnico definido y los requerimientos del MVP, se est
 
 ### Condiciones para Cumplimiento del Plazo
 
-- Aprobación rápida de requerimientos por parte del cliente.
+- Aprobación de requerimientos por parte del cliente.
 - Disponibilidad de información de integración con sistemas existentes.
-- Acceso a especificaciones legales. (mayoría de edad, protección de datos)
+- Acceso a especificaciones legales. (mayoría de edad, protección de datos...)
 - Pago inicial realizado según lo acordado.
 
 Este plazo considera los problemas operativos del casino y garantizar la calidad en el desarrollo.
