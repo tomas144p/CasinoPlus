@@ -12,9 +12,9 @@ Los sorteos tambien presentan problemas, pues el metodo actual es llamado al esc
 
 El Lucky 38, es un casino que ha funcionado desde hace años en Chile, pero su tecnologia empieza a quedarse atras, ralentizando su avance y su competitividad con otros casinos de la zona, aun asi, se establece como un "Clasico incomparable" entre clientes de variadas experiencias, asi mismo, su ubicacion es perfecta para atraer clientela primeriza.
 
-## 3. Que se espera que el software haga.
+## 3.Objetivo software 
 
-Se espera que el software asista al personal y a los clientes a tener una experiencia mas fluida y clara dentro del establecimiento, impidiendo contratiempos que causan molestia en los clientes y los colaboradores del local.
+Se espera que el software asista al personal y a los clientes a tener una experiencia mas fluida y clara dentro del casino, impidiendo contratiempos que causan molestia en los clientes y los colaboradores del local.
 
 ## 4. Requerimientos funcionales.
 
